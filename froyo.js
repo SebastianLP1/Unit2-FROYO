@@ -1,14 +1,10 @@
 
 
 //Code//
- const alertMessage= "Welcome to Freds Froyo Shop"
+const alertMessage= "Welcome to Freds Froyo Shop"
 alert(alertMessage)
-prompt("Please input your desired flavors!")
-
-
-
 let flavors = [`vanilla`,`vanilla`,`vanilla`,`strawberry`,`coffee`,`coffee`];
-
+prompt("Please input your desired flavors!",flavors)
 const count = {};
 
 for (let i = 0; i < flavors.length; i++) {
